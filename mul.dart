@@ -4,7 +4,7 @@ void main() {
   String x = "sun";
   String y = "Rise";
 
-  double z = 22.56;
+  double z = 22.56
 
   int b = a + r;
   var c = z + b;
