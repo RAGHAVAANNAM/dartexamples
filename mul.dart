@@ -4,13 +4,15 @@ void main() {
   String x = "sun";
   String y = "Rise";
 
-  double z = 22.56
+  double z = 4.5;
 
   int b = a + r;
   var c = z + b;
-  String w = x + y;
+  String w = (x + y);
 
   print("adition of b =${a + r}");
   print(x + y);
   print("double c =${z + b}");
+  print(w);
+  print(c);
 }
