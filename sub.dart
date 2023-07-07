@@ -12,6 +12,8 @@ void main() {
     print("multiple of j= ${f * g}");
     int t = 1000;
     int o = t + a;
+    print(o);
+    print(j);
 
     print("value of O= ${t + a}");
   }
