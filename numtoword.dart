@@ -71,3 +71,4 @@ String generate1To99(int number) {
 void main() {
   print(Solution(int.parse(stdin.readLineSync()!)));
   print(Solution(10500530));
+}
