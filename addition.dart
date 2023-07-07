@@ -1,5 +1,5 @@
 void main() {
-  String a = "gupta";
+  String A = "gupta";
   int b = 45;
 
   int c = 23;
@@ -7,4 +7,6 @@ void main() {
   int d = b + c;
 
   print("addition of b and c = $d");
+  print(A);
+  print("my name is ${A}, my age is ${c}, my rool no ${b}");
 }
