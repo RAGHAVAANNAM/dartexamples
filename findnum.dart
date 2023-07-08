@@ -1,15 +1,20 @@
-main() {
-  var list = [23, 45, 67, 98, 100];
-  print(list);
+void main() {
+  var list1 = [23, 45, 67, 98, 100];
+  {
+    var reversedlist = new List.from(list1.reversed);
+    print(reversedlist);
+  }
 
-  var biggest = list[0];
-  var smallest = list[0];
+  print(list1);
 
-  for (var i = 0; i < list.length; i++) {
-    if (list[i] > biggest) {
-      biggest = list[i];
-    } else if (list[i] < smallest) {
-      smallest = list[i];
+  var biggest = list1[0];
+  var smallest = list1[0];
+
+  for (var i = 0; i < list1.length; i++) {
+    if (list1[i] > biggest) {
+      biggest = list1[i];
+    } else if (list1[i] < smallest) {
+      smallest = list1[i];
     }
   }
   print("smallest value:${smallest}");
