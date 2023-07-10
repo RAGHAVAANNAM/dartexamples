@@ -3,7 +3,6 @@ void main() {
 
   var reversedList = new List.from(List1.reversed);
   print("before array:$List1");
-
   print("reversed array:$reversedList");
 
   var myList = [26, 16, 44, 82, 82];
