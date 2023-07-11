@@ -12,6 +12,5 @@ void main() {
   }
 
   print(list);
-  print("oddnumber:$oddnumber");
-  print("evennumber:$evennumber");
+  print("even or odd number:$evennumber+$oddnumber");
 }
